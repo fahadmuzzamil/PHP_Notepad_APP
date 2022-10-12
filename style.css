@@ -1,0 +1,88 @@
+ body{
+            margin:0;
+            padding:0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: gray;
+        }
+        .container{
+         width: 95%;
+         height: 90%;
+         padding: 10px;
+         border: 5px solid black;
+         text-align: center;
+         background-color: red;
+         color: white;
+         font-weight: bolder;
+         font-family: cursive;
+         /* overflow: hidden; */
+        }
+        div{
+            margin-bottom: 15px;
+        }
+        input{
+            margin: 0 5px;
+            font-family: cursive;
+        }
+        option{
+            color: white;
+            font-size: 100%;
+            border: 3px solid #d1b7dc;
+            border-radius: 0%;
+            background: black;
+        }
+        textarea{
+            padding: 15px;
+            font-size: 20px;
+            border: none;
+            background-color: white;
+            color: white;
+            width: 95%;
+            height: 100%;
+            border: 5px solid black;
+            border-radius: 25px;
+        }
+        
+        #submit, #set{
+            background-color: white;
+            border: none;
+            padding: 0px 20px;
+            color: black;
+            font-size: 17px;
+            display: block;
+            transform: translateX(-41%);
+            margin-left: 50%;
+            margin-top: 10px;
+            transition: all .3s;
+            border-radius: 3px;
+        
+                }
+                #submit:hover, #set:hover{
+                     cursor: pointer;
+                     background-color: black;
+                     color: white;
+                     transition:  all .3s;
+                    font-weight: bolder;
+                }
+                .save{
+                    background-color: blue;
+                    border: none;
+                    padding: 0px 20px;
+                    color: white;
+                    font-size: 17px;
+                    display: block;
+                    transform: translateX(-41%);
+                    margin-left: 50%;
+                    margin-top: 10px;
+                    transition: all .3s;
+                    border-radius: 3px; 
+                }
+                .save:hover{
+                    cursor: pointer;
+                    background-color: white;
+                    color: blue;
+                    transition:  all .3s;
+                    font-weight: bolder;
+               }
