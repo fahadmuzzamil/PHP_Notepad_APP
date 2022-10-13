@@ -33,11 +33,20 @@ else if(isset($_POST['reset'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notepad+-</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+       #form{
+           width: 90%;
+           position: relative;
+           margin-left: 50%;
+           transform: translateX(-50%);
+           
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>+-+NOTEPAD+-+</h1>
-    <form  method ="post" enctype = "multipart/form-data">
+    <form  method ="post" enctype = "multipart/form-data" id="form">
         <div>
         <label for="bg">Background Color: </label>
       <input type="color" name="bg" id="bg" value="<?php if(isset($_GET["bg"])){ echo "#".$_GET["bg"];}elseif(isset($_SESSION["bg1"])){echo $_SESSION["bg1"];}else{echo "#ffffff";}?>">
