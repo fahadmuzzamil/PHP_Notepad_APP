@@ -1,23 +1,23 @@
  body{
             margin:0;
             padding:0;
+            height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
             background-color: gray;
+            height: 100vh;
         }
         .container{
-         width: 95%;
-         height: 90%;
-         padding: 10px;
-         border: 5px solid black;
-         text-align: center;
-         background-color: red;
-         color: white;
-         font-weight: bolder;
-         font-family: cursive;
-         /* overflow: hidden; */
+        width: 95%;
+        height: 90%;
+        padding: 10px;
+        border: 5px solid black;
+        text-align: center;
+        background-color: red;
+        color: white;
+        font-weight: bolder;
+        font-family: cursive;
         }
         div{
             margin-bottom: 15px;
@@ -61,8 +61,8 @@
                 }
                 #submit:hover, #set:hover{
                      cursor: pointer;
-                     background-color: black;
-                     color: white;
+                     background-color: rgb(236, 228, 228);
+                     color: red;
                      transition:  all .3s;
                     font-weight: bolder;
                 }
